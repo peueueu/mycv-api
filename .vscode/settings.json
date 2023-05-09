@@ -1,0 +1,11 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "dev_mycv",
+      "database": "${workspaceFolder:mycv}/prisma/dev.db"
+    }
+  ]
+}
