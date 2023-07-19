@@ -7,4 +7,6 @@ export class UserDto {
   email: string;
   @Expose()
   username: string;
+  @Expose()
+  admin: boolean;
 }
